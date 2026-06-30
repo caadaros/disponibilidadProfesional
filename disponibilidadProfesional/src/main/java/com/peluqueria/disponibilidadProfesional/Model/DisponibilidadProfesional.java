@@ -6,12 +6,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "disponibilidad_profesional")
+@Table(name = "DISPONIBILIDAD_PROFESIONAL")
 public class DisponibilidadProfesional {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
