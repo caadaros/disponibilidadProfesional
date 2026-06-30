@@ -6,22 +6,18 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.6</version>
-        <relativePath/> 
+        <version>3.4.1</version> <relativePath/>
     </parent>
+    <properties>
+        <java.version>21</java.version>
+        <spring-cloud.version>2024.0.0</spring-cloud.version> 
+    </properties>
 
     <groupId>com.peluqueria</groupId>
     <artifactId>disponibilidadProfesional</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>disponibilidadProfesional</name>
     <description>Microservicio para la gestión de disponibilidad profesional</description>
-
-    <properties>
-        <java.version>21</java.version>
-        <spring-cloud.version>2025.0.0</spring-cloud.version>
-        <springdoc.version>2.8.5</springdoc.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
