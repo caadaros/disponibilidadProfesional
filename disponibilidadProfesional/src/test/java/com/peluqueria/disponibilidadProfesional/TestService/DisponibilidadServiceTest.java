@@ -1,4 +1,4 @@
-package com.peluqueria.disponibilidadProfesional;
+package com.peluqueria.disponibilidadProfesional.TestService;
 
 import com.peluqueria.disponibilidadProfesional.Model.DisponibilidadProfesional;
 import com.peluqueria.disponibilidadProfesional.Repository.DisponibilidadRepository;
